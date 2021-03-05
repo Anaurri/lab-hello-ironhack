@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  text-align: left;
+  padding: 10%
 }
 
 .App-logo {
@@ -12,7 +13,16 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.App-navbar {
+  background-color: #282c34;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +32,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-right: 50%;
+}
+
+.App-h1 {
+  font-size: 50px
+}
+.App-h6 {
+  font-size: 30px
 }
 
 .App-link {
